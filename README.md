@@ -11,9 +11,11 @@
 
 ## WHO AM I?
 
-<p>I'm a full stack developer with a passion for cyber security. I enjoy finding out how things work, and then how to keep them safe.</p>
+<p>I'm a full stack developer with a passion for Cyber Security. I enjoy finding out how things work, delving into the unknown and how to keep them safe/secure.</p>
 
-<p><b>How I got here:</b> Java was my first language and gave me the foundations to pick up Python, C, C++ and JavaScript. That curiosity led me from a BSc (Hons) in Computer Science at Swansea University to an NCSC-certified MSc in Cyber Security (Distinction) at Cardiff University, where I worked on penetration testing, malware analysis, incident response and cyber risk.</p>
+<p><b>How I got here:</b> Java was my first language and gave me the foundations to pick up Python, C, C++, JavaScript, etc... Additionally, I can now confidently learn any progreamming language from learning the fundamnetals of programming.
+
+I have recently gone from a BSc (Hons) in Computer Science at Swansea University to an NCSC-certified MSc in Cyber Security (Distinction) at Cardiff University, where I worked on penetration testing, malware analysis, incident response and cyber risk management.</p>
 
 <p><b>What I do:</b> I build and secure production web platforms end to end, across WordPress, Laravel and Vue/Nuxt on AWS and Terraform, and bring security into every stage, from secure coding and hardened authentication to monitoring and incident response.</p>
 
