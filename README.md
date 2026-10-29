@@ -4,18 +4,20 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/samuel-ashman/"><img src="./assets/imgs/badges/linkedin.svg" height="28" alt="LinkedIn: samuel-ashman" /></a>
+  <a href="https://www.linkedin.com/in/samuel-ashman/"><img src="./assets/imgs/badges/linkedin.svg" height="44" alt="LinkedIn: samuel-ashman" /></a>
 </p>
 
 <img src="./assets/imgs/code-rain.svg" width="100%" alt="" />
 
 ## WHO AM I?
 
-<p><samp>I'm a full stack developer with a security-first mindset. I build and secure production web platforms end to end: the front end, the APIs, and the cloud infrastructure and CI/CD pipelines that run them.</samp></p>
+<p>I'm a full stack developer with a passion for cyber security. I enjoy finding out how things work, and then how to keep them safe.</p>
 
-<p><samp>I hold an NCSC-certified MSc in Cyber Security (Distinction) from Cardiff University and a BSc (Hons) in Computer Science from Swansea University. Day to day I work across WordPress, Laravel and Vue/Nuxt on AWS and Terraform, and bring security into every stage: secure coding, hardened authentication, dependency and secrets hygiene, and monitoring.</samp></p>
+<p><b>How I got here:</b> Java was my first language and gave me the foundations to pick up Python, C, C++ and JavaScript. That curiosity led me from a BSc (Hons) in Computer Science at Swansea University to an NCSC-certified MSc in Cyber Security (Distinction) at Cardiff University, where I worked on penetration testing, malware analysis, incident response and cyber risk.</p>
 
-<p><samp>I'm currently working towards the Google Cybersecurity Professional Certificate and building hands-on security tooling, including a local AWS security lab and a mini SIEM.</samp></p>
+<p><b>What I do:</b> I build and secure production web platforms end to end, across WordPress, Laravel and Vue/Nuxt on AWS and Terraform, and bring security into every stage, from secure coding and hardened authentication to monitoring and incident response.</p>
+
+<p><b>What I'm working on:</b> the Google Cybersecurity Professional Certification, hands-on labs on TryHackMe and Hack The Box, and my own security tooling, including a local AWS security lab and a mini SIEM.</p>
 
 ## My Tech Certifications
 

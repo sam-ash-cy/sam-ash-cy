@@ -48,10 +48,11 @@ const projects: Project[] = [
 const width = 440;
 const height = 160;
 const pad = 20;
-// Monospace so line wrapping can be computed here: an image SVG cannot measure or reflow text itself.
-const font = "'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace";
+// GitHub's own UI font stack, so the cards read like normal README text.
+const font = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif";
 const descSize = 12;
-const charWidth = descSize * 0.6;
+// Average character width for the sans stack; an image SVG cannot measure or reflow text, so wrapping is estimated here.
+const charWidth = descSize * 0.55;
 const maxChars = Math.floor((width - pad * 2) / charWidth);
 
 function escape(text: string) {
@@ -77,14 +78,14 @@ function card(project: Project) {
 	const status = project.inProgress
 		? `<rect x="${width - pad - 96}" y="18" width="96" height="20" rx="10" fill="none" stroke="#d29922"/>
 	<text x="${width - pad - 48}" y="32" text-anchor="middle" font-size="11" fill="#d29922">in progress</text>`
-		: `<text x="${width - pad}" y="32" text-anchor="end" font-size="11" fill="#8b949e">view repo →</text>`;
+		: `<text x="${width - pad}" y="32" text-anchor="end" font-size="12" font-weight="600" fill="#3fb950">View Repo →</text>`;
 	const description = wrap(project.description)
 		.map((line, i) => `<text x="${pad}" y="${66 + i * 18}" font-size="${descSize}" fill="#c9d1d9">${escape(line)}</text>`)
 		.join("\n\t");
 
 	let tagX = pad;
 	const tags = project.tech.map((tech) => {
-		const tagWidth = Math.ceil(tech.length * 6.6 + 16);
+		const tagWidth = Math.ceil(tech.length * 6.4 + 16);
 		const markup = `<rect x="${tagX}" y="${height - 36}" width="${tagWidth}" height="20" rx="10" fill="#3fb950" fill-opacity="0.12"/>
 	<text x="${tagX + tagWidth / 2}" y="${height - 22}" text-anchor="middle" font-size="11" fill="#3fb950">${escape(tech)}</text>`;
 		tagX += tagWidth + 6;
@@ -95,7 +96,7 @@ function card(project: Project) {
 	<g font-family="${font}">
 	<rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="10" fill="#0d1117" stroke="#30363d"/>
 	<rect x="0.5" y="0.5" width="4" height="${height - 1}" rx="2" fill="#3fb950"/>
-	<text x="${pad}" y="33" font-size="16" font-weight="700" fill="#e6edf3"><tspan fill="#3fb950">❯ </tspan>${escape(project.name)}</text>
+	<text x="${pad}" y="33" font-size="16" font-weight="700" fill="#e6edf3">${escape(project.name)}</text>
 	${status}
 	${description}
 	${tags}

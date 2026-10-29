@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 160" width="440" height="160" role="img" aria-label="Discord Bot: Open-source bot template with role-gated moderation commands, logging, polls and switchable JSON or MongoDB storage.">
-	<g font-family="'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+	<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
 	<rect x="0.5" y="0.5" width="439" height="159" rx="10" fill="#0d1117" stroke="#30363d"/>
 	<rect x="0.5" y="0.5" width="4" height="159" rx="2" fill="#3fb950"/>
-	<text x="20" y="33" font-size="16" font-weight="700" fill="#e6edf3"><tspan fill="#3fb950">❯ </tspan>Discord Bot</text>
-	<text x="420" y="32" text-anchor="end" font-size="11" fill="#8b949e">view repo →</text>
+	<text x="20" y="33" font-size="16" font-weight="700" fill="#e6edf3">Discord Bot</text>
+	<text x="420" y="32" text-anchor="end" font-size="12" font-weight="600" fill="#3fb950">View Repo →</text>
 	<text x="20" y="66" font-size="12" fill="#c9d1d9">Open-source bot template with role-gated moderation</text>
 	<text x="20" y="84" font-size="12" fill="#c9d1d9">commands, logging, polls and switchable JSON or MongoDB</text>
 	<text x="20" y="102" font-size="12" fill="#c9d1d9">storage.</text>
-	<rect x="20" y="124" width="63" height="20" rx="10" fill="#3fb950" fill-opacity="0.12"/>
-	<text x="51.5" y="138" text-anchor="middle" font-size="11" fill="#3fb950">Node.js</text>
-	<rect x="89" y="124" width="82" height="20" rx="10" fill="#3fb950" fill-opacity="0.12"/>
-	<text x="130" y="138" text-anchor="middle" font-size="11" fill="#3fb950">discord.js</text>
-	<rect x="177" y="124" width="63" height="20" rx="10" fill="#3fb950" fill-opacity="0.12"/>
-	<text x="208.5" y="138" text-anchor="middle" font-size="11" fill="#3fb950">MongoDB</text>
+	<rect x="20" y="124" width="61" height="20" rx="10" fill="#3fb950" fill-opacity="0.12"/>
+	<text x="50.5" y="138" text-anchor="middle" font-size="11" fill="#3fb950">Node.js</text>
+	<rect x="87" y="124" width="80" height="20" rx="10" fill="#3fb950" fill-opacity="0.12"/>
+	<text x="127" y="138" text-anchor="middle" font-size="11" fill="#3fb950">discord.js</text>
+	<rect x="173" y="124" width="61" height="20" rx="10" fill="#3fb950" fill-opacity="0.12"/>
+	<text x="203.5" y="138" text-anchor="middle" font-size="11" fill="#3fb950">MongoDB</text>
 	</g>
 </svg>
