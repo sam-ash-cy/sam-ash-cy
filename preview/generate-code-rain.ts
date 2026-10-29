@@ -3,7 +3,7 @@
 import { join } from "node:path";
 
 const width = 1000;
-const height = 140;
+const height = 200;
 const laneGap = 22;
 const rowHeight = 15;
 const rows = 24;
