@@ -60,12 +60,50 @@ setInterval(() => {
 
 // Editors often fire several events per save; collapse them into one reload.
 let reloadTimer: Timer | undefined;
-for (const target of ["README.md", "assets"]) {
-	watch(join(root, target), { recursive: true }, () => {
-		clearTimeout(reloadTimer);
-		reloadTimer = setTimeout(notifyClients, 100);
-	});
+function scheduleReload() {
+	clearTimeout(reloadTimer);
+	reloadTimer = setTimeout(notifyClients, 100);
 }
+watch(join(root, "assets"), { recursive: true }, scheduleReload);
+
+// Rebuild README.md and assets whenever the config or a generator changes; the watchers above then reload the page.
+let building = false;
+let buildQueued = false;
+async function rebuild() {
+	if (building) {
+		buildQueued = true;
+		return;
+	}
+	building = true;
+	const proc = Bun.spawn(["bun", join(root, "preview", "build.ts")], { cwd: root, stdout: "inherit", stderr: "inherit" });
+	await proc.exited;
+	building = false;
+	if (buildQueued) {
+		buildQueued = false;
+		rebuild();
+	}
+}
+
+let buildTimer: Timer | undefined;
+function scheduleBuild() {
+	clearTimeout(buildTimer);
+	buildTimer = setTimeout(rebuild, 150);
+}
+
+// Watch folders, not single files: many editors save by replacing the file, which silently ends a watch on the file itself.
+watch(root, (_, filename) => {
+	if (filename === "README.md") {
+		scheduleReload();
+	} else if (filename === "profile.config.ts") {
+		scheduleBuild();
+	}
+});
+watch(join(root, "preview"), { recursive: true }, (_, filename) => {
+	if (filename === "lib.ts" || filename === "config-types.ts" || filename?.startsWith("generators")) {
+		scheduleBuild();
+	}
+});
+rebuild();
 
 Bun.serve({
 	port,

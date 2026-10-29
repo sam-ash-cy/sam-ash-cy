@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 180" width="1000" height="180" aria-hidden="true">
+	<!-- Generated from profile.config.ts by preview/generators/code-rain.ts. -->
 	<style>
-		text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10px; text-anchor: middle; }
+		text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; font-size: 10px; text-anchor: middle; }
 		.lane { animation-name: fall; animation-timing-function: linear; animation-iteration-count: infinite; }
 		@keyframes fall { from { transform: translateY(0); } to { transform: translateY(360px); } }
 		@media (prefers-reduced-motion: reduce) { .lane { animation: none; } }
@@ -12,7 +13,7 @@
 			<stop offset="0.8" stop-color="#fff" stop-opacity="1" />
 			<stop offset="1" stop-color="#fff" stop-opacity="0" />
 		</linearGradient>
-		<mask id="m"><rect width="1000" height="200" fill="url(#fade)" /></mask>
+		<mask id="m"><rect width="1000" height="180" fill="url(#fade)" /></mask>
 	</defs>
 	<g mask="url(#m)">
 		<g class="lane" style="animation-duration: 10.4s; animation-delay: -13.7s;">

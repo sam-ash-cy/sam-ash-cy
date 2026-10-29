@@ -1,4 +1,5 @@
-<!-- Terminal theme: accent 3fb950 on 0d1117. Every image except the streak card is stored in assets/imgs/ so the profile never depends on a third-party image host. -->
+<!-- Generated from profile.config.ts by `bun run build`. Edit the config, not this file: changes here are overwritten. -->
+
 <p align="center">
   <img src="./assets/imgs/terminal-header.svg" alt="Terminal session: whoami — Samuel Ashman, Full Stack Developer" width="100%" />
 </p>
@@ -13,9 +14,9 @@
 
 <p>I'm a full stack developer with a passion for Cyber Security. I enjoy finding out how things work, delving into the unknown and how to keep them safe/secure.</p>
 
-<p><b>How I got here:</b> Java was my first language and gave me the foundations to pick up Python, C, C++, JavaScript, etc... Additionally, I can now confidently learn any progreamming language from learning the fundamnetals of programming.
+<p><b>How I got here:</b> Java was my first language and gave me the foundations to pick up Python, C, C++, JavaScript, etc... Additionally, I can now confidently learn any programming language from learning the fundamentals of programming.</p>
 
-I have recently gone from a BSc (Hons) in Computer Science at Swansea University to an NCSC-certified MSc in Cyber Security (Distinction) at Cardiff University, where I worked on penetration testing, malware analysis, incident response and cyber risk management.</p>
+<p>I have recently gone from a BSc (Hons) in Computer Science at Swansea University to an NCSC-certified MSc in Cyber Security (Distinction) at Cardiff University, where I worked on penetration testing, malware analysis, incident response and cyber risk management.</p>
 
 <p><b>What I do:</b> I build and secure production web platforms end to end, across WordPress, Laravel and Vue/Nuxt on AWS and Terraform, and bring security into every stage, from secure coding and hardened authentication to monitoring and incident response.</p>
 
@@ -23,7 +24,6 @@ I have recently gone from a BSc (Hons) in Computer Science at Swansea University
 
 ## My Tech Certifications
 
-<!-- Green label = year completed, amber label = in progress. -->
 <p>
 <img src="./assets/imgs/badges/cert-google-cybersecurity.svg" height="28" alt="Google Cybersecurity Professional Certificate (in progress)" title="Google Cybersecurity Professional Certificate (in progress)" />
 <img src="./assets/imgs/badges/cert-google-ai.svg" height="28" alt="Google AI Professional Certificate (2026)" title="Google AI Professional Certificate (2026)" />
@@ -32,15 +32,14 @@ I have recently gone from a BSc (Hons) in Computer Science at Swansea University
 <img src="./assets/imgs/badges/cert-cyber-bootcamp.svg" height="28" alt="Cyber Security in Business Bootcamp, Level 3 (2024)" title="Cyber Security in Business Bootcamp, Level 3 (2024)" />
 </p>
 
-
 ## Featured Projects
 
 <p align="center">
-  <a href="https://github.com/sam-ash-cy/dual-check-2fa"><img src="./assets/imgs/projects/dual-check-2fa.svg" width="49%" alt="Dual Check 2FA: open-source WordPress 2FA plugin" /></a>
-  <a href="https://github.com/sam-ash-cy/VS-Sound"><img src="./assets/imgs/projects/vs-sound.svg" width="49%" alt="VS Sound: VS Code sound feedback extension" /></a>
-  <a href="https://github.com/sam-ash-cy/Discord-Bot"><img src="./assets/imgs/projects/discord-bot.svg" width="49%" alt="Discord Bot: open-source moderation bot template" /></a>
-  <img src="./assets/imgs/projects/aws-security-lab.svg" width="49%" alt="AWS Security Lab (in progress)" />
-  <img src="./assets/imgs/projects/mini-siem.svg" width="49%" alt="Mini SIEM for Windows (in progress)" />
+  <a href="https://github.com/sam-ash-cy/dual-check-2fa"><img src="./assets/imgs/projects/dual-check-2fa.svg" width="49%" alt="Dual Check 2FA: Open-source WordPress plugin adding email-based two-factor authentication, with hashed single-use codes, IP-aware lockout and trusted devices." /></a>
+  <a href="https://github.com/sam-ash-cy/VS-Sound"><img src="./assets/imgs/projects/vs-sound.svg" width="49%" alt="VS Sound: VS Code extension that plays configurable sounds for diagnostics, tasks, saves, debug sessions and Git events." /></a>
+  <a href="https://github.com/sam-ash-cy/Discord-Bot"><img src="./assets/imgs/projects/discord-bot.svg" width="49%" alt="Discord Bot: Open-source bot template with role-gated moderation commands, logging, polls and switchable JSON or MongoDB storage." /></a>
+  <img src="./assets/imgs/projects/aws-security-lab.svg" width="49%" alt="AWS Security Lab (in progress): Containerised platform for emulating AWS services and testing security controls locally." />
+  <img src="./assets/imgs/projects/mini-siem.svg" width="49%" alt="Mini SIEM for Windows (in progress): Host event ingestion, a threshold-based rule engine and a React dashboard for managing alerts." />
 </p>
 
 ## Full Tech Stack
@@ -141,5 +140,7 @@ I have recently gone from a BSc (Hons) in Computer Science at Swansea University
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=sam-ash-cy&background=0d1117&border=30363d&stroke=30363d&ring=3fb950&fire=3fb950&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=3fb950&sideLabels=8b949e&dates=6e7681&border_radius=10" alt="GitHub contribution streak" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user=sam-ash-cy&amp;background=0d1117&amp;border=30363d&amp;stroke=30363d&amp;ring=3fb950&amp;fire=3fb950&amp;currStreakNum=e6edf3&amp;sideNums=e6edf3&amp;currStreakLabel=3fb950&amp;sideLabels=8b949e&amp;dates=6e7681&amp;border_radius=10" alt="GitHub contribution streak" width="100%" />
 </p>
+
+<img src="./assets/imgs/code-rain.svg" width="100%" alt="" />

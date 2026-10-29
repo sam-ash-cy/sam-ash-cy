@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="78" height="20" role="img" aria-label="Playwright">
 	<rect width="78" height="20" fill="#30363d"/>
 	
-	<text x="6" y="14" font-family="'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#fff">Playwright</text>
+	<text x="6" y="14" font-family="'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff">Playwright</text>
 </svg>

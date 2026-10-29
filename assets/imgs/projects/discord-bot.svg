@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 160" width="440" height="160" role="img" aria-label="Discord Bot: Open-source bot template with role-gated moderation commands, logging, polls and switchable JSON or MongoDB storage.">
+	<!-- Generated from profile.config.ts by preview/generators/project-cards.ts. -->
 	<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
 	<rect x="0.5" y="0.5" width="439" height="159" rx="10" fill="#0d1117" stroke="#30363d"/>
 	<rect x="0.5" y="0.5" width="4" height="159" rx="2" fill="#3fb950"/>
