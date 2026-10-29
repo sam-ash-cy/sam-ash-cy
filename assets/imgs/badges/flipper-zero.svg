@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="20" role="img" aria-label="Flipper Zero">
+	<rect width="92" height="20" fill="#30363d"/>
+	
+	<text x="6" y="14" font-family="'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fff">Flipper Zero</text>
+</svg>
