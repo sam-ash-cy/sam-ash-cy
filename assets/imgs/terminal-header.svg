@@ -1,13 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-label="Samuel Ashman — Full Stack Web Developer, Security Focused">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-label="Samuel Ashman — Full Stack Developer">
 	<!-- Plain SVG + CSS only: GitHub serves README images through its camo proxy, which strips scripts and blocks external fonts. -->
 	<style>
 		.mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
 		.prompt { fill: #3fb950; font-size: 15px; }
 		.cmd { fill: #e6edf3; font-size: 15px; }
 		.name { fill: #e6edf3; font-size: 38px; font-weight: 700; }
-		.role { fill: #3fb950; font-size: 16px; }
+		.role { fill: #e6edf3; font-size: 22px; font-weight: 600; }
 		.edu { fill: #8b949e; font-size: 13px; }
-		.focus { fill: #e6edf3; font-size: 15px; }
+		.focus { fill: #e6edf3; font-size: 20px; font-weight: 600; }
+		.focus .prompt { font-size: 20px; }
 		.code { fill: #3fb950; font-size: 11px; opacity: 0.32; }
 		.code-alt { fill: #8b949e; font-size: 11px; opacity: 0.4; }
 		.title { fill: #8b949e; font-size: 12px; }
@@ -22,8 +23,8 @@
 		.type { animation-name: type; animation-fill-mode: forwards; }
 		@keyframes type { to { transform: translateX(var(--w)); } }
 
-		.cycle { opacity: 0; animation: cycle 12s linear infinite; }
-		@keyframes cycle { 0% { opacity: 0; } 2% { opacity: 1; } 23% { opacity: 1; } 25% { opacity: 0; } 100% { opacity: 0; } }
+		.cycle { opacity: 0; animation: cycle 15s linear infinite; }
+		@keyframes cycle { 0% { opacity: 0; } 2% { opacity: 1; } 18% { opacity: 1; } 20% { opacity: 0; } 100% { opacity: 0; } }
 
 		.cursor { animation: blink 1s steps(1) infinite; }
 		@keyframes blink { 50% { opacity: 0; } }
@@ -139,20 +140,20 @@
 		</g>
 		<rect class="cover type" x="376" y="168" width="110" height="20" fill="#0d1117" style="--w: 110px; animation-duration: 0.9s; animation-delay: 1.9s; animation-timing-function: steps(12);" />
 
-		<text x="250" y="212" class="role fade" style="animation-delay: 3s;">Full Stack Web Developer · Security Focused</text>
-		<text x="250" y="236" class="edu fade" style="animation-delay: 3.2s;">MSc Cyber Security (Distinction) · BSc (Hons) Computer Science</text>
+		<text x="250" y="220" class="role fade" style="animation-delay: 3s;">Full Stack Developer</text>
 
 		<g class="show" style="animation-delay: 3.6s;">
-			<text x="250" y="278"><tspan class="prompt">sam@ashman:~$ </tspan><tspan class="cmd">./focus --loop</tspan></text>
+			<text x="250" y="278"><tspan class="prompt">sam@ashman:~$ </tspan><tspan class="cmd">./skills-headlines</tspan></text>
 		</g>
-		<rect class="cover type" x="376" y="264" width="128" height="20" fill="#0d1117" style="--w: 128px; animation-duration: 1s; animation-delay: 3.9s; animation-timing-function: steps(14);" />
+		<rect class="cover type" x="376" y="264" width="164" height="20" fill="#0d1117" style="--w: 164px; animation-duration: 1.2s; animation-delay: 3.9s; animation-timing-function: steps(18);" />
 
-		<text x="250" y="306" class="focus cycle cycle-first" style="animation-delay: 5.1s;"><tspan class="prompt">&gt; </tspan>full stack web development</text>
-		<text x="250" y="306" class="focus cycle" style="animation-delay: 8.1s;"><tspan class="prompt">&gt; </tspan>application security &amp; secure coding</text>
-		<text x="250" y="306" class="focus cycle" style="animation-delay: 11.1s;"><tspan class="prompt">&gt; </tspan>cloud infrastructure: AWS &amp; Terraform</text>
-		<text x="250" y="306" class="focus cycle" style="animation-delay: 14.1s;"><tspan class="prompt">&gt; </tspan>security operations &amp; incident response</text>
+		<text x="250" y="309" class="focus cycle cycle-first" style="animation-delay: 5.3s;"><tspan class="prompt">&gt; </tspan>Cyber Security</text>
+		<text x="250" y="309" class="focus cycle" style="animation-delay: 8.3s;"><tspan class="prompt">&gt; </tspan>Full Stack Web Development</text>
+		<text x="250" y="309" class="focus cycle" style="animation-delay: 11.3s;"><tspan class="prompt">&gt; </tspan>Cloud and Developer Operations</text>
+		<text x="250" y="309" class="focus cycle" style="animation-delay: 14.3s;"><tspan class="prompt">&gt; </tspan>Programming</text>
+		<text x="250" y="309" class="focus cycle" style="animation-delay: 17.3s;"><tspan class="prompt">&gt; </tspan>Application Development/Architecture</text>
 
-		<g class="show" style="animation-delay: 5.1s;">
+		<g class="show" style="animation-delay: 5.3s;">
 			<text x="250" y="342" class="prompt">sam@ashman:~$</text>
 			<rect class="cursor" x="378" y="329" width="9" height="17" fill="#3fb950" />
 		</g>

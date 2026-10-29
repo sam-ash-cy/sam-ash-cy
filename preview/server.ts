@@ -5,9 +5,6 @@ import { marked } from "marked";
 const root = join(import.meta.dir, "..");
 const port = Number(process.env.PORT ?? 3030);
 
-// The real 3D graph only exists after the GitHub Action has run, so fall back to the tool's demo image locally.
-const demo3dBase = "https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/";
-
 const clients = new Set<ReadableStreamDefaultController>();
 
 // GitHub renders profile READMEs as GFM without soft line breaks, so mirror that here.
@@ -50,6 +47,17 @@ function notifyClients() {
 	}
 }
 
+// Heartbeat keeps the reload stream open through proxies and Docker port forwarding.
+setInterval(() => {
+	for (const client of clients) {
+		try {
+			client.enqueue(": ping\n\n");
+		} catch {
+			clients.delete(client);
+		}
+	}
+}, 5000);
+
 // Editors often fire several events per save; collapse them into one reload.
 let reloadTimer: Timer | undefined;
 for (const target of ["README.md", "assets"]) {
@@ -61,10 +69,12 @@ for (const target of ["README.md", "assets"]) {
 
 Bun.serve({
 	port,
-	async fetch(req) {
+	async fetch(req, server) {
 		const url = new URL(req.url);
 
 		if (url.pathname === "/__reload") {
+			// The reload stream sits idle between saves; Bun would otherwise close it after 10 seconds.
+			server.timeout(req, 0);
 			let self: ReadableStreamDefaultController;
 			const stream = new ReadableStream({
 				start(controller) {
@@ -89,18 +99,15 @@ Bun.serve({
 			});
 		}
 
-		// Only serve the folders the README references, so .git and other repo files stay private.
+		// Only serve the folder the README references, so .git and other repo files stay private.
 		const filePath = normalize(join(root, decodeURIComponent(url.pathname)));
-		const allowed = ["assets/", "profile-3d-contrib/"].some((dir) => filePath.startsWith(join(root, dir)));
+		const allowed = filePath.startsWith(join(root, "assets/"));
 		if (!allowed) {
 			return new Response("Not found", { status: 404 });
 		}
 		const file = Bun.file(filePath);
 		if (await file.exists()) {
 			return new Response(file, { headers: { "Cache-Control": "no-store" } });
-		}
-		if (url.pathname.startsWith("/profile-3d-contrib/")) {
-			return Response.redirect(demo3dBase + url.pathname.split("/").pop(), 302);
 		}
 		return new Response("Not found", { status: 404 });
 	},

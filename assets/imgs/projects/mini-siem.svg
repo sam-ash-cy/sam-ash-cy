@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 160" width="440" height="160" role="img" aria-label="Mini SIEM for Windows: Host event ingestion, a threshold-based rule engine and a React dashboard for managing alerts.">
+	<g font-family="'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+	<rect x="0.5" y="0.5" width="439" height="159" rx="10" fill="#0d1117" stroke="#30363d"/>
+	<rect x="0.5" y="0.5" width="4" height="159" rx="2" fill="#3fb950"/>
+	<text x="20" y="33" font-size="16" font-weight="700" fill="#e6edf3"><tspan fill="#3fb950">❯ </tspan>Mini SIEM for Windows</text>
+	<rect x="324" y="18" width="96" height="20" rx="10" fill="none" stroke="#d29922"/>
+	<text x="372" y="32" text-anchor="middle" font-size="11" fill="#d29922">in progress</text>
+	<text x="20" y="66" font-size="12" fill="#c9d1d9">Host event ingestion, a threshold-based rule engine and</text>
+	<text x="20" y="84" font-size="12" fill="#c9d1d9">a React dashboard for managing alerts.</text>
+	<rect x="20" y="124" width="30" height="20" rx="10" fill="#3fb950" fill-opacity="0.12"/>
+	<text x="35" y="138" text-anchor="middle" font-size="11" fill="#3fb950">C#</text>
+	<rect x="56" y="124" width="96" height="20" rx="10" fill="#3fb950" fill-opacity="0.12"/>
+	<text x="104" y="138" text-anchor="middle" font-size="11" fill="#3fb950">ASP.NET Core</text>
+	<rect x="158" y="124" width="49" height="20" rx="10" fill="#3fb950" fill-opacity="0.12"/>
+	<text x="182.5" y="138" text-anchor="middle" font-size="11" fill="#3fb950">React</text>
+	</g>
+</svg>
