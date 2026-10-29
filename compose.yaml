@@ -1,0 +1,10 @@
+services:
+  preview:
+    build: .
+    ports:
+      - "3031:3031"
+    volumes:
+      # Mount the repo so edits on the host trigger a reload inside the container.
+      - .:/app
+      # Keep the container's own node_modules instead of the host's.
+      - /app/node_modules

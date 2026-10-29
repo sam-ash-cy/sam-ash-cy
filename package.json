@@ -1,0 +1,10 @@
+{
+	"name": "sam-ash-cy-profile",
+	"private": true,
+	"scripts": {
+		"dev": "bun --watch preview/server.ts"
+	},
+	"dependencies": {
+		"marked": "15.0.12"
+	}
+}

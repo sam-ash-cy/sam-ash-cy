@@ -1,31 +1,78 @@
-<h1 align="center">Hi 👋, I'm Sam</h1>
-<h3 align="center">A rag tag developer with a passion in all things tech!</h3>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sam-ash-cy&theme=onedark" alt="sam-ash-cy" /></a> </p>
-
-
-<p><img align="left" style="height: 197px;" src="https://github-readme-stats.vercel.app/api/top-langs?username=sam-ash-cy&show_icons=true&theme=tokyonight&locale=en&layout=compact" alt="sam-ash-cy" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sam-ash-cy&theme=dark" alt="sam-ash-cy" /></p>
-
-- 🔭 I’m currently working with [hoppstudio](https://hoppstudio.com/)
-
-- 🌱 I’m currently in the process of **completing certifications for cyber security, web development, and server architecture**
-
-- 👯 Currently having an interest and working in **Full stack web development and Cyber Security**
-
-- 🤝 How to reach me [Linked In (Message me I do not bite)](https://www.linkedin.com/in/samuel-ashman/)
-
-- 👨‍💻 All of my projects are available on [https://github.com/samash1234567](https://github.com/sam-ash-cy)
-
-- 📄 Know about my experiences [https://www.linkedin.com/in/samuel-ashman/](https://www.linkedin.com/in/samuel-ashman/)
-
-- ⚡ Fun fact **I eat 4 bananas a day, I AM RADIOACTIVE**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/samuel-ashman/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="samuel ashman" height="30" width="40" /></a>
+<!-- Terminal theme: accent 3fb950 on 0d1117. The header and footer are animated SVGs kept in assets/ so no third-party service can break them. -->
+<p align="center">
+  <img src="./assets/terminal-header.svg" alt="Terminal session: whoami — Samuel Ashman, Full Stack Web Developer, Security Focused" width="100%" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/samuel-ashman/"><img src="https://img.shields.io/badge/LinkedIn-samuel--ashman-0d1117?style=for-the-badge&labelColor=3fb950" alt="LinkedIn: samuel-ashman" /></a>
+</p>
+
+<!-- Code-rain strips float on each edge of the content column; GitHub keeps the align attribute but allows no other positioning. -->
+<img align="left" src="./assets/code-rain-left.svg" width="10%" alt="" />
+<img align="right" src="./assets/code-rain-right.svg" width="10%" alt="" />
+
+## `$ whoami`
+
+<p><samp>I'm a full stack web developer with a security-first approach. I build and maintain production web platforms across WordPress, Laravel and Vue/Nuxt, and look after the cloud infrastructure, CI/CD and security practices behind them.</samp></p>
+
+<p><samp>I hold an NCSC-certified MSc in Cyber Security (Distinction) from Cardiff University and a BSc (Hons) in Computer Science from Swansea University. My interests sit where development meets security: secure coding, hardening authentication, cloud security and security operations.</samp></p>
+
+### `$ cat roadmap.md`
+
+<ul>
+  <li><samp><b>Google Cybersecurity Professional Certificate</b></samp></li>
+  <li><samp><b>AWS Security Lab:</b> a containerised platform for emulating AWS services and testing security controls locally (Python, FastAPI, PostgreSQL, Terraform)</samp></li>
+  <li><samp><b>Mini SIEM for Windows:</b> host event ingestion, a threshold-based rule engine and a React dashboard (C#, ASP.NET Core)</samp></li>
+  <li><samp>Deeper experience in cloud security, detection engineering and incident response</samp></li>
+</ul>
+
+## `$ ls ~/certs`
+
+<!-- Green label = year completed, amber label = in progress. -->
+<img src="https://img.shields.io/badge/in_progress-Google_Cybersecurity_Professional-0d1117?style=for-the-badge&labelColor=d29922&logo=google&logoColor=white" alt="Google Cybersecurity Professional Certificate (in progress)" />
+<img src="https://img.shields.io/badge/2026-Google_AI_Professional-0d1117?style=for-the-badge&labelColor=3fb950&logo=google&logoColor=white" alt="Google AI Professional Certificate (2026)" />
+<img src="https://img.shields.io/badge/2026-IBM_Cybersecurity_Fundamentals-0d1117?style=for-the-badge&labelColor=3fb950" alt="IBM Cybersecurity Fundamentals (2026)" />
+<img src="https://img.shields.io/badge/2025-Fortinet_Certified_Fundamentals_(FCF)-0d1117?style=for-the-badge&labelColor=3fb950&logo=fortinet&logoColor=white" alt="Fortinet Certified Fundamentals in Cybersecurity (2025)" />
+<img src="https://img.shields.io/badge/2024-Cyber_Security_in_Business_Bootcamp_(L3)-0d1117?style=for-the-badge&labelColor=3fb950" alt="Cyber Security in Business Bootcamp, Level 3 (2024)" />
+
+## `$ ls ~/stack`
+
+<samp><b>~/stack/languages/</b></samp>
+
+<img src="https://skillicons.dev/icons?i=php,js,ts,python,cs,java,c,cpp,html,css,sass,bash&perline=12" alt="PHP, JavaScript, TypeScript, Python, C#, Java, C, C++, HTML, CSS, Sass, Bash" />
+
+<samp><b>~/stack/frameworks/</b></samp>
+
+<img src="https://skillicons.dev/icons?i=laravel,wordpress,vue,nuxtjs,pinia,react,nodejs,bun,dotnet,fastapi,tailwind,alpinejs,threejs,vite,vitest,graphql,apollo,discordjs&perline=12" alt="Laravel, WordPress, Vue, Nuxt, Pinia, React, Node.js, Bun, .NET, FastAPI, Tailwind CSS, Alpine.js, Three.js, Vite, Vitest, GraphQL, Apollo, discord.js" />
+
+<img src="https://img.shields.io/badge/React_Native-30363d?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" /> <img src="https://img.shields.io/badge/Expo-30363d?style=flat-square&logo=expo&logoColor=white" alt="Expo" /> <img src="https://img.shields.io/badge/Ionic-30363d?style=flat-square&logo=ionic&logoColor=3880FF" alt="Ionic" /> <img src="https://img.shields.io/badge/Capacitor-30363d?style=flat-square&logo=capacitor&logoColor=119EFF" alt="Capacitor" /> <img src="https://img.shields.io/badge/GSAP-30363d?style=flat-square&logo=greensock&logoColor=88CE02" alt="GSAP" /> <img src="https://img.shields.io/badge/Playwright-30363d?style=flat-square" alt="Playwright" />
+
+<samp><b>~/stack/data/</b></samp>
+
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,dynamodb&perline=12" alt="MySQL, PostgreSQL, MongoDB, DynamoDB" />
+
+<img src="https://img.shields.io/badge/Algolia-30363d?style=flat-square&logo=algolia&logoColor=white" alt="Algolia" /> <img src="https://img.shields.io/badge/Meilisearch-30363d?style=flat-square&logo=meilisearch&logoColor=FF5CAA" alt="Meilisearch" /> <img src="https://img.shields.io/badge/Typesense-30363d?style=flat-square" alt="Typesense" />
+
+<samp><b>~/stack/cloud-devops/</b></samp>
+
+<img src="https://skillicons.dev/icons?i=aws,terraform,docker,githubactions,git,github,linux&perline=12" alt="AWS, Terraform, Docker, GitHub Actions, Git, GitHub, Linux" />
+
+<img src="https://img.shields.io/badge/Datadog-30363d?style=flat-square&logo=datadog&logoColor=white" alt="Datadog" /> <img src="https://img.shields.io/badge/Dependabot-30363d?style=flat-square&logo=dependabot&logoColor=white" alt="Dependabot" /> <img src="https://img.shields.io/badge/Jamf-30363d?style=flat-square" alt="Jamf" />
+
+<samp><b>~/stack/security/</b></samp>
+
+<img src="https://img.shields.io/badge/OWASP-30363d?style=flat-square&logo=owasp&logoColor=white" alt="OWASP" /> <img src="https://img.shields.io/badge/Wireshark-30363d?style=flat-square&logo=wireshark&logoColor=1679A7" alt="Wireshark" /> <img src="https://img.shields.io/badge/Metasploit-30363d?style=flat-square&logo=metasploit&logoColor=2596CD" alt="Metasploit" /> <img src="https://img.shields.io/badge/Nmap-30363d?style=flat-square" alt="Nmap" /> <img src="https://img.shields.io/badge/Autopsy-30363d?style=flat-square" alt="Autopsy" /> <img src="https://img.shields.io/badge/EnCase-30363d?style=flat-square" alt="EnCase" /> <img src="https://img.shields.io/badge/Flipper_Zero-30363d?style=flat-square" alt="Flipper Zero" /> <img src="https://img.shields.io/badge/Bitdefender-30363d?style=flat-square&logo=bitdefender&logoColor=ED1C24" alt="Bitdefender" />
+
+## `$ git log --stat`
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=sam-ash-cy&background=0d1117&border=30363d&stroke=30363d&ring=3fb950&fire=3fb950&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=3fb950&sideLabels=8b949e&dates=6e7681&border_radius=10" alt="GitHub contribution streak" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D contribution calendar" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/terminal-footer.svg" alt="Thanks for visiting, let's connect" width="100%" />
+</p>

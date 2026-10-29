@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-label="Samuel Ashman — Full Stack Web Developer, Security Focused">
+	<!-- Plain SVG + CSS only: GitHub serves README images through its camo proxy, which strips scripts and blocks external fonts. -->
+	<style>
+		.mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+		.prompt { fill: #3fb950; font-size: 15px; }
+		.cmd { fill: #e6edf3; font-size: 15px; }
+		.name { fill: #e6edf3; font-size: 38px; font-weight: 700; }
+		.role { fill: #3fb950; font-size: 16px; }
+		.edu { fill: #8b949e; font-size: 13px; }
+		.focus { fill: #e6edf3; font-size: 15px; }
+		.code { fill: #3fb950; font-size: 11px; opacity: 0.32; }
+		.code-alt { fill: #8b949e; font-size: 11px; opacity: 0.4; }
+		.title { fill: #8b949e; font-size: 12px; }
+
+		/* Lines start hidden and are revealed in sequence, like a session being typed. */
+		.show { opacity: 0; animation: show 0.01s linear forwards; }
+		.fade { opacity: 0; animation: fade 0.5s ease-out forwards; }
+		@keyframes show { to { opacity: 1; } }
+		@keyframes fade { to { opacity: 1; } }
+
+		/* Typing: a background-coloured block slides right one character at a time to uncover the command. */
+		.type { animation-name: type; animation-fill-mode: forwards; }
+		@keyframes type { to { transform: translateX(var(--w)); } }
+
+		.cycle { opacity: 0; animation: cycle 12s linear infinite; }
+		@keyframes cycle { 0% { opacity: 0; } 2% { opacity: 1; } 23% { opacity: 1; } 25% { opacity: 0; } 100% { opacity: 0; } }
+
+		.cursor { animation: blink 1s steps(1) infinite; }
+		@keyframes blink { 50% { opacity: 0; } }
+
+		.up { animation: up 22s linear infinite; }
+		.down { animation: down 26s linear infinite; }
+		@keyframes up { from { transform: translateY(0); } to { transform: translateY(-288px); } }
+		@keyframes down { from { transform: translateY(-288px); } to { transform: translateY(0); } }
+
+		@media (prefers-reduced-motion: reduce) {
+			* { animation: none !important; }
+			.show, .fade, .cycle-first { opacity: 1; }
+			.cover { display: none; }
+		}
+	</style>
+
+	<defs>
+		<clipPath id="frame"><rect x="10" y="10" width="980" height="360" rx="10" /></clipPath>
+		<clipPath id="colL"><rect x="24" y="48" width="196" height="316" /></clipPath>
+		<clipPath id="colR"><rect x="780" y="48" width="196" height="316" /></clipPath>
+		<clipPath id="centre"><rect x="236" y="48" width="528" height="316" /></clipPath>
+		<linearGradient id="fadeV" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" stop-color="#fff" stop-opacity="0" />
+			<stop offset="0.18" stop-color="#fff" stop-opacity="1" />
+			<stop offset="0.82" stop-color="#fff" stop-opacity="1" />
+			<stop offset="1" stop-color="#fff" stop-opacity="0" />
+		</linearGradient>
+		<mask id="fadeMask" maskUnits="userSpaceOnUse" x="0" y="48" width="1000" height="316">
+			<rect x="0" y="48" width="1000" height="316" fill="url(#fadeV)" />
+		</mask>
+
+		<g id="streamL" class="mono code">
+			<text x="28" y="64">$ nmap -sV 10.0.0.12</text>
+			<text x="28" y="80">PORT    STATE  SERVICE</text>
+			<text x="28" y="96">22/tcp  open   ssh</text>
+			<text x="28" y="112">443/tcp open   https</text>
+			<text x="28" y="128">$ tail -f auth.log</text>
+			<text x="28" y="144">Failed password: root</text>
+			<text x="28" y="160">fail2ban: ban 203.0.113.7</text>
+			<text x="28" y="176">$ terraform plan</text>
+			<text x="28" y="192">+ aws_kms_key.audit</text>
+			<text x="28" y="208">+ aws_s3_bucket.logs</text>
+			<text x="28" y="224">Plan: 4 to add, 0 change</text>
+			<text x="28" y="240">$ gh api /dependabot</text>
+			<text x="28" y="256">alerts: 0 open</text>
+			<text x="28" y="272">$ openssl s_client</text>
+			<text x="28" y="288">Verify return code: 0</text>
+			<text x="28" y="304">$ sha256sum release.zip</text>
+			<text x="28" y="320">9f86d081884c7d65...</text>
+			<text x="28" y="336">$ ufw status: active</text>
+		</g>
+
+		<g id="streamR" class="mono code-alt">
+			<text x="784" y="64">function verify($u, $c) {</text>
+			<text x="784" y="80">  $h = get_hash($u);</text>
+			<text x="784" y="96">  if (!hash_equals(</text>
+			<text x="784" y="112">    $h, hash('sha256', $c)</text>
+			<text x="784" y="128">  )) {</text>
+			<text x="784" y="144">    lockout($u, $ip);</text>
+			<text x="784" y="160">    return false;</text>
+			<text x="784" y="176">  }</text>
+			<text x="784" y="192">  consume($u);</text>
+			<text x="784" y="208">  return true;</text>
+			<text x="784" y="224">}</text>
+			<text x="784" y="240">const csp = [</text>
+			<text x="784" y="256">  "default-src 'self'",</text>
+			<text x="784" y="272">  "frame-ancestors 'none'",</text>
+			<text x="784" y="288">].join('; ');</text>
+			<text x="784" y="304">SELECT id FROM users</text>
+			<text x="784" y="320"> WHERE email = ?;</text>
+			<text x="784" y="336">// prepared, never concat</text>
+		</g>
+	</defs>
+
+	<!-- Window -->
+	<rect x="10" y="10" width="980" height="360" rx="10" fill="#0d1117" stroke="#30363d" />
+	<g clip-path="url(#frame)">
+		<rect x="10" y="10" width="980" height="30" fill="#161b22" />
+		<line x1="10" y1="40" x2="990" y2="40" stroke="#30363d" />
+	</g>
+	<circle cx="30" cy="25" r="6" fill="#ff5f56" />
+	<circle cx="50" cy="25" r="6" fill="#ffbd2e" />
+	<circle cx="70" cy="25" r="6" fill="#27c93f" />
+	<text x="500" y="29" text-anchor="middle" class="mono title">sam@ashman: ~/profile — zsh</text>
+
+	<!-- Side streams: content is drawn twice, 288px apart, so the scroll loops seamlessly. -->
+	<g mask="url(#fadeMask)">
+		<g clip-path="url(#colL)">
+			<g class="up">
+				<use xlink:href="#streamL" href="#streamL" />
+				<use xlink:href="#streamL" href="#streamL" y="288" />
+			</g>
+		</g>
+		<g clip-path="url(#colR)">
+			<g class="down">
+				<use xlink:href="#streamR" href="#streamR" />
+				<use xlink:href="#streamR" href="#streamR" y="288" />
+			</g>
+		</g>
+	</g>
+	<line x1="228" y1="56" x2="228" y2="356" stroke="#30363d" stroke-dasharray="2 4" />
+	<line x1="772" y1="56" x2="772" y2="356" stroke="#30363d" stroke-dasharray="2 4" />
+
+	<!-- Session -->
+	<g clip-path="url(#centre)" class="mono">
+		<text x="250" y="88"><tspan class="prompt">sam@ashman:~$ </tspan><tspan class="cmd">whoami</tspan></text>
+		<rect class="cover type" x="376" y="74" width="60" height="20" fill="#0d1117" style="--w: 60px; animation-duration: 0.6s; animation-delay: 0.4s; animation-timing-function: steps(6);" />
+
+		<text x="250" y="138" class="name fade" style="animation-delay: 1.2s;">Samuel Ashman</text>
+
+		<g class="show" style="animation-delay: 1.6s;">
+			<text x="250" y="182"><tspan class="prompt">sam@ashman:~$ </tspan><tspan class="cmd">cat role.txt</tspan></text>
+		</g>
+		<rect class="cover type" x="376" y="168" width="110" height="20" fill="#0d1117" style="--w: 110px; animation-duration: 0.9s; animation-delay: 1.9s; animation-timing-function: steps(12);" />
+
+		<text x="250" y="212" class="role fade" style="animation-delay: 3s;">Full Stack Web Developer · Security Focused</text>
+		<text x="250" y="236" class="edu fade" style="animation-delay: 3.2s;">MSc Cyber Security (Distinction) · BSc (Hons) Computer Science</text>
+
+		<g class="show" style="animation-delay: 3.6s;">
+			<text x="250" y="278"><tspan class="prompt">sam@ashman:~$ </tspan><tspan class="cmd">./focus --loop</tspan></text>
+		</g>
+		<rect class="cover type" x="376" y="264" width="128" height="20" fill="#0d1117" style="--w: 128px; animation-duration: 1s; animation-delay: 3.9s; animation-timing-function: steps(14);" />
+
+		<text x="250" y="306" class="focus cycle cycle-first" style="animation-delay: 5.1s;"><tspan class="prompt">&gt; </tspan>full stack web development</text>
+		<text x="250" y="306" class="focus cycle" style="animation-delay: 8.1s;"><tspan class="prompt">&gt; </tspan>application security &amp; secure coding</text>
+		<text x="250" y="306" class="focus cycle" style="animation-delay: 11.1s;"><tspan class="prompt">&gt; </tspan>cloud infrastructure: AWS &amp; Terraform</text>
+		<text x="250" y="306" class="focus cycle" style="animation-delay: 14.1s;"><tspan class="prompt">&gt; </tspan>security operations &amp; incident response</text>
+
+		<g class="show" style="animation-delay: 5.1s;">
+			<text x="250" y="342" class="prompt">sam@ashman:~$</text>
+			<rect class="cursor" x="378" y="329" width="9" height="17" fill="#3fb950" />
+		</g>
+	</g>
+</svg>
